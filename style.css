@@ -1,0 +1,23 @@
+body {
+
+background-size: cover;
+
+}
+
+canvas {
+
+width: 300 ; 
+height: 300;
+border: 1px dashed black ;
+animation-name: pennywise ;
+animation-duration: 12s;
+animation-iteration-count: infinite ; 
+margin-top: 25px;
+}
+
+@keyframes pennywise{
+
+from{box-shadow: 10px 10px 20px orange;}
+to{box-shadow: 10px 10px 20px red;}
+
+}
